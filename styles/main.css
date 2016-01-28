@@ -1,0 +1,16 @@
+.commandment {
+  text-align: center;
+}
+
+.commandment_title {
+  font-size: 3em;
+}
+
+.commandment-welcome {
+  background: #e8e8e8;
+}
+
+.commandment-user-first {
+  color: #fff;
+  background: #1f1fff;
+}
