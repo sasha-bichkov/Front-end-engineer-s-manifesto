@@ -10,7 +10,11 @@
   background: #e8e8e8;
 }
 
-.commandment-user-first {
-  color: #fff;
-  background: #1f1fff;
+#fp-nav ul li a span {
+  border-color: #000;
+}
+
+#fp-nav ul li a.active span {
+  border-color: #000;
+  background: #000;
 }
