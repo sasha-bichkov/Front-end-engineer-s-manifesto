@@ -1,9 +1,14 @@
+p {
+  font-size: 14pt;
+  line-height: 1.6;
+}
+
 .commandment {
   text-align: center;
 }
 
 .commandment_title {
-  font-size: 3em;
+  font-size: 7em;
 }
 
 .commandment-welcome {
