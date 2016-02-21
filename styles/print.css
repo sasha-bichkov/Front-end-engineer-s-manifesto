@@ -10,6 +10,7 @@ html, body {
 .commandment-content {
   position: absolute;
   top: 30%;
+  margin-bottom: -75px;
   width: 100%;
   margin: 0 auto;
 }
