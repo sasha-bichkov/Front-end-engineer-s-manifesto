@@ -3,14 +3,15 @@
 <head>
   <title>Манифест фронтенд-разработчика</title>
   <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="Манифест фронтенд-разработчика">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <link rel="stylesheet" href="styles/normalize-3.0.2.css">
   <link rel="stylesheet" href="styles/fonts.css">
   <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/spinner-pulse.css">
-  <link rel="stylesheet" href="styles/jquery.fullPage.css">
+  <link rel="stylesheet" href="styles/spinner-pulse.css"  media="screen">
+  <link rel="stylesheet" href="styles/jquery.fullPage.css" media="screen">
+  <link rel="stylesheet" href="styles/print.css" media="print">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
@@ -19,155 +20,183 @@
   </div>
 
   <main id="commandments" class="commandments">
-    <section class="commandment commandment-welcome">
-      <h1 class="commandment_title">
-        FRONTEND ENGINEER'S MANIFEST
-      </h1>
-    </section>
-    <section class="commandment commandment-user-first">
-      <h2>USER FIRST</h2>
-      <p>
-        Потребности <strong>ПОЛЬЗОВАТЕЛЯ</strong>
-        <br />
-        для меня важнее и&nbsp;превыше моих собственных нужд разработчика
-      </p>
-    </section>
-    <section class="commandment commandment-progressive-enhancement">
-      <h2>PROGRESSIVE ENHANCEMENT</h2>
-      <p>
-        <strong>ПРОГРЕССИВНОЕ УЛУЧШЕНИЕ</strong>
-        и&nbsp;<strong>НЕНАВЯЗЧИВЫЙ JAVASCRIPT</strong> — мои инструменты.
-        <br />
-        Без JavaScript или CSS, или без мобильного WebKit, мои сайты, возможно,
-        будут выглядеть
-        <br />
-        не&nbsp;так красиво, но&nbsp;они останутся функциональными.
-      </p>
-    </section>
-    <section class="commandment commandment-simplicity-respect">
-      <h2>SIMPLICITY IS RESPECT</h2>
-      <p>
-        Я не&nbsp;буду излишне испытывать мозги своих пользователей сложным дизайном
-        и&nbsp;пользовательским интерфейсом.
-        <br />
-        Я буду cтараться сделать взаимодействие
-        лаконичным и&nbsp;менее изматывающим.
-      </p>
-    </section>
-    <section class="commandment commandment-browser-choice">
-      <h2>WEB BROWSER CHOICE MATTERS</h2>
-      <p>
-        Я буду просвещать моих друзей и&nbsp;родственников, что
-        <strong>ВЫБОР БРАУЗЕРА ИМЕЕТ ЗНАЧЕНИЕ</strong>.
-        <br />
-        Браузеры, как минимум, должны грамотно реализовывать веб-стандарты
-        и&nbsp;должны быть гибкими
-        <br />
-        по&nbsp;отношению к&nbsp;прогрессирующему вебу.
-        Браузер следует выбирать независимо от&nbsp;операционной системы.
-        <br />
-        Это особенно важно для мобильных устройств.
-      </p>
-    </section>
-    <section class="commandment commandment-perfomance">
-      <h2>PERFORMANCE IS CRITICAL</h2>
-      <p>
-        Я признаю: <strong>ПРОИЗВОДИТЕЛЬНОСТЬ КРАЙНЕ ВАЖНА</strong>.
-        <br />
-        Мой <em>developer hardware</em> не&nbsp;от&nbsp;мира сего
-        <br />
-        и&nbsp;помнит об&nbsp;ограниченности
-        аппаратных средств, о&nbsp;большой задержке и&nbsp;низкой
-        пропускной способности
-      </p>
-    </section>
-    <section class="commandment commandment-javascript">
-      <h2>JAVASCRIPT BEFORE JQUERY</h2>
-      <p>
-        Я буду изучать основы, а&nbsp;не&nbsp;абстракции:
-        <strong>JAVASCRIPT ДО JQUERY</strong>
-        <br />
-        или YUI, Prototype, Mootools и&nbsp;всего остального...
-      </p>
-    </section>
-    <section class="commandment commandment-opensource">
-      <h2>OPEN SOURCE CODE</h2>
-      <p>
-        Я верю, что <strong>OPEN SOURCE</strong>
-        и&nbsp;<strong>ROYALITY-FREE ИНСТРУМЕНТЫ</strong>
-        <br />
-        олицетворяют лучшее будущее для веба.
-        <br />
-        Особенно при рассмотрении форматов файлов и&nbsp;кодеков для изображений,
-        аудио или видео.
-      </p>
-    </section>
-    <section class="commandment commandment-give-back">
-      <h2>GIVE BACK TO THE COMMUNITY</h2>
-      <p>
-        <strong>Я ВЕРНУ ДОЛГ ОБЩЕСТВУ</strong>
-        <br />
-        Я буду вновсить вклад обходными решениями, фиксами,
-        <br />
-        и&nbsp;документированием проблем, которые помогут остальным.
-      </p>
-    </section>
-    <section class="commandment commandment-hemispheres">
-      <h2>HEMISPHERES OF MY BRAIN</h2>
-      <p>
-        Я буду стимулировать оба <strong>ПОЛУШАРИЯ МОЕГО МОЗГА</strong>.
-        <br />
-        Я буду развивать себя не&nbsp;только в&nbsp;математике или кодинге,
-        но&nbsp;также и&nbsp;в&nbsp;искусстве, 
-        в&nbsp;музыке, в&nbsp;дизайне, и&nbsp;юзабилити.
-      </p>
-    </section>
-    <section class="commandment commandment-knowledge">
-      <h2>KNOWLEDGE CURRENT</h2>
-      <p>
-        Я буду делать всё возможное, чтобы сохранить мои
-        <strong>ТЕКУЩИЕ ЗНАНИЯ</strong>.
-        <br />
-        Я понимаю, что невозможно научиться всему и&nbsp;помнить всё.
-      </p>
-    </section>
-    <section class="commandment commandment-responsibility">
-      <h2>RESPONSIBILITY FOR VIEW SOURCE</h2>
-      <p>
-        Я беру <strong>ОТВЕТСТВЕННОСТЬ ПРИ ПРОСМОТРЕ ИСХОДНОГО КОДА</strong>
-        <br />
-        Я позабочусь о&nbsp;том, чтобы использовать подходы, которые будут совместимы
-        с&nbsp;нынешними и&nbsp;будущими браузерами.
-      </p>
-    </section>
-    <section class="commandment commandment-right-tool">
-      <h2>RIGHT TOOL FOR THE JOB</h2>
-      <p>
-        Я буду выбирать <strong>ВЕРНЫЕ ИНСТРУМЕНТЫ ДЛЯ РАБОТЫ</strong>
-        <br />
-        Будет ли это большим выбором между full-stack фреймворком
-        и&nbsp;простой DOM-ориентированной библиотекой,
-        <br />
-        или даже простым выбором между CSS и&nbsp;JavaScript для решения задачи,
-        я буду учиться на&nbsp;ошибках тех,
-        <br />
-        кто был до&nbsp;меня, чтобы сделать верный выбор для моего проекта.
-      </p>
-    </section>
-    <section class="commandment commandment-secure">
-      <h2>SECURE APPLICATIONS</h2>
-      <p>
-        Я буду стремиться разрабатывать <strong>ЗАЩИЩЁННЫЕ ПРИЛОЖЕНИЯ</strong>
-        <br />
-        Я буду экранировать мой вывод и&nbsp;код, чтобы предотвратить XSS и&nbsp;CSRF.
-        <br />
-        Я не&nbsp;буду хранить конфиденциальную информацию в&nbsp;Куках,
-        и&nbsp;буду использовать HTTPS, когда это уместно.
-        <br />
-        Я буду ответственным в&nbsp;устранении проблем,
-        которые могут навредить моим приложениям.
-      </p>
-    </section>
+    <div class="commandment commandment-welcome">
+      <section class="commandment-content">
+        <h1 class="commandment_title">
+          FRONTEND ENGINEER'S MANIFEST
+        </h1>
+      </section>
+    </div>
+    <div class="commandment commandment-user-first">
+      <section class="commandment-content">
+        <h2>USER FIRST</h2>
+        <p class="commandment-text">
+          Потребности <strong>ПОЛЬЗОВАТЕЛЯ</strong>
+          <br />
+          для меня важнее и&nbsp;превыше моих собственных нужд разработчика
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-progressive-enhancement">
+      <section class="commandment-content">
+        <h2>PROGRESSIVE ENHANCEMENT</h2>
+        <p class="commandment-text">
+          <strong>ПРОГРЕССИВНОЕ УЛУЧШЕНИЕ</strong>
+          и&nbsp;<strong>НЕНАВЯЗЧИВЫЙ JAVASCRIPT</strong> — мои инструменты.
+          <br />
+          Без JavaScript или CSS, или без мобильного WebKit, мои сайты, возможно,
+          будут выглядеть
+          <br />
+          не&nbsp;так красиво, но&nbsp;они останутся функциональными.
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-simplicity-respect">
+      <section class="commandment-content">
+        <h2>SIMPLICITY IS RESPECT</h2>
+        <p class="commandment-text">
+          Я не&nbsp;буду излишне испытывать мозги своих пользователей сложным дизайном
+          и&nbsp;пользовательским интерфейсом.
+          <br />
+          Я буду cтараться сделать взаимодействие
+          лаконичным и&nbsp;менее изматывающим.
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-browser-choice">
+      <section class="commandment-content">
+        <h2>WEB BROWSER CHOICE MATTERS</h2>
+        <p class="commandment-text">
+          Я буду просвещать моих друзей и&nbsp;родственников, что
+          <strong>ВЫБОР БРАУЗЕРА ИМЕЕТ ЗНАЧЕНИЕ</strong>.
+          <br />
+          Браузеры, как минимум, должны грамотно реализовывать веб-стандарты
+          и&nbsp;должны быть гибкими
+          <br />
+          по&nbsp;отношению к&nbsp;прогрессирующему вебу.
+          Браузер следует выбирать независимо от&nbsp;операционной системы.
+          <br />
+          Это особенно важно для мобильных устройств.
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-perfomance">
+      <section class="commandment-content">
+        <h2>PERFORMANCE&nbsp;IS&nbsp;CRITICAL</h2>
+        <p class="commandment-text">
+          Я признаю: <strong>ПРОИЗВОДИТЕЛЬНОСТЬ КРАЙНЕ ВАЖНА</strong>.
+          <br />
+          Мой <em>developer hardware</em> не&nbsp;от&nbsp;мира сего
+          <br />
+          и&nbsp;помнит об&nbsp;ограниченности
+          аппаратных средств, о&nbsp;большой задержке и&nbsp;низкой
+          пропускной способности
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-javascript">
+      <section class="commandment-content">
+        <h2>JAVASCRIPT BEFORE JQUERY</h2>
+        <p class="commandment-text">
+          Я буду изучать основы, а&nbsp;не&nbsp;абстракции:
+          <strong>JAVASCRIPT ДО JQUERY</strong>
+          <br />
+          или YUI, Prototype, Mootools и&nbsp;всего остального...
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-opensource">
+      <section class="commandment-content">
+        <h2>OPEN SOURCE CODE</h2>
+        <p class="commandment-text">
+          Я верю, что <strong>OPEN SOURCE</strong>
+          и&nbsp;<strong>ROYALITY-FREE ИНСТРУМЕНТЫ</strong>
+          <br />
+          олицетворяют лучшее будущее для веба.
+          <br />
+          Особенно при рассмотрении форматов файлов и&nbsp;кодеков для изображений,
+          аудио или видео.
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-give-back">
+      <section class="commandment-content">
+        <h2>GIVE BACK TO THE COMMUNITY</h2>
+        <p class="commandment-text">
+          <strong>Я ВЕРНУ ДОЛГ ОБЩЕСТВУ</strong>
+          <br />
+          Я буду вновсить вклад обходными решениями, фиксами,
+          <br />
+          и&nbsp;документированием проблем, которые помогут остальным.
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-hemispheres">
+      <section class="commandment-content">
+        <h2>HEMISPHERES OF MY BRAIN</h2>
+        <p class="commandment-text">
+          Я буду стимулировать оба <strong>ПОЛУШАРИЯ МОЕГО МОЗГА</strong>.
+          <br />
+          Я буду развивать себя не&nbsp;только в&nbsp;математике или кодинге,
+          но&nbsp;также и&nbsp;в&nbsp;искусстве,
+          в&nbsp;музыке, в&nbsp;дизайне, и&nbsp;юзабилити.
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-knowledge">
+      <section class="commandment-content">
+        <h2>KNOWLEDGE CURRENT</h2>
+        <p class="commandment-text">
+          Я буду делать всё возможное, чтобы сохранить мои
+          <strong>ТЕКУЩИЕ ЗНАНИЯ</strong>.
+          <br />
+          Я понимаю, что невозможно научиться всему и&nbsp;помнить всё.
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-responsibility">
+      <section class="commandment-content">
+        <h2>RESPONSIBILITY FOR VIEW SOURCE</h2>
+        <p class="commandment-text">
+          Я беру <strong>ОТВЕТСТВЕННОСТЬ ПРИ ПРОСМОТРЕ ИСХОДНОГО КОДА</strong>
+          <br />
+          Я позабочусь о&nbsp;том, чтобы использовать подходы, которые будут совместимы
+          с&nbsp;нынешними и&nbsp;будущими браузерами.
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-right-tool">
+      <section class="commandment-content">
+        <h2>RIGHT TOOL FOR THE JOB</h2>
+        <p class="commandment-text">
+          Я буду выбирать <strong>ВЕРНЫЕ ИНСТРУМЕНТЫ ДЛЯ РАБОТЫ</strong>
+          <br />
+          Будет ли это большим выбором между full-stack фреймворком
+          и&nbsp;простой DOM-ориентированной библиотекой,
+          <br />
+          или даже простым выбором между CSS и&nbsp;JavaScript для решения задачи,
+          я буду учиться на&nbsp;ошибках тех,
+          <br />
+          кто был до&nbsp;меня, чтобы сделать верный выбор для моего проекта.
+        </p>
+      </section>
+    </div>
+    <div class="commandment commandment-secure">
+      <section class="commandment-content">
+        <h2>SECURE APPLICATIONS</h2>
+        <p class="commandment-text">
+          Я буду стремиться разрабатывать <strong>ЗАЩИЩЁННЫЕ ПРИЛОЖЕНИЯ</strong>
+          <br />
+          Я буду экранировать мой вывод и&nbsp;код, чтобы предотвратить XSS и&nbsp;CSRF.
+          <br />
+          Я не&nbsp;буду хранить конфиденциальную информацию в&nbsp;Куках,
+          и&nbsp;буду использовать HTTPS, когда это уместно.
+          <br />
+          Я буду ответственным в&nbsp;устранении проблем,
+          которые могут навредить моим приложениям.
+        </p>
+      </section>
+    </div>
   </main>
 
   <script src="scripts/jquery-2.2.0.js"></script>
